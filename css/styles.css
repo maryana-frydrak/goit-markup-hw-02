@@ -14,6 +14,144 @@ a {
     color: #4d5ae5;
 }
 
-.downloads .stydio {
+.stydio {
     color: #2e2f42;
+}
+
+.std {
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.std:hover,
+.std:focus {
+    color: #404bbf;
+}
+
+.adr {
+    font-style: normal;
+}
+
+.em-tel {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.em-tel:hover,
+.em-tel:focus {
+    color: #404bbf;
+}
+
+.ef-sol {
+    background-color: #2e2f42;
+}
+
+.business {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff
+}
+
+.os {
+    background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+
+}
+
+.os:hover,
+.os:focus {
+    background-color: #404BBF;
+}
+
+.spdt {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.directions {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.sss {
+    background-color: #F4F4FD
+}
+
+.ot {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+
+.mtcd {
+    background-color: #FFFFFF;
+}
+
+.gfgw {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    line-height: 1.2;
+    color: #2e2f42;
+}
+
+.position {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.portfolio {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+
+.app {
+    font-weight: 500;
+    font-size: 20p;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.mrkt {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.footer {
+    background-color: #2e2f42;
+}
+
+.std-ft {
+    color: #f4f4fd
+}
+
+.increase {
+    line-height: 1.5;
+    color: #F4F4FD;
+    letter-spacing: 0.02em;
 }
