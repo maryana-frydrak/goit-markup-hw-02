@@ -1,10 +1,24 @@
+/* font-family: "Raleway",
+sans-serif;
+font-family: "Roboto",
+sans-serif; */
+
 body {
-    font-family: 'Roboto' sans-serif;
+    font-family: "Roboto", sans-serif;
     color: #434455;
-    background-color: #FFFFFF
+    background-color: #ffffff;
+}
+
+ul,
+ol {
+    list-style-type: none;
 }
 
 a {
+    text-decoration: none;
+}
+
+.logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -14,42 +28,44 @@ a {
     color: #4d5ae5;
 }
 
-.stydio {
+.header-logo .logo-part {
     color: #2e2f42;
 }
 
-.std {
+.nav-link {
     font-weight: 500;
+    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
 
-.std:hover,
-.std:focus {
+.nav-link:hover,
+.nav-link:focus {
     color: #404bbf;
 }
 
-.adr {
+.contacts {
     font-style: normal;
 }
 
-.em-tel {
+.contacts-link {
+    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
 
-.em-tel:hover,
-.em-tel:focus {
+.contacts-link:hover,
+.contacts-link:focus {
     color: #404bbf;
 }
 
-.ef-sol {
+.first-section {
     background-color: #2e2f42;
 }
 
-.business {
+.main-text {
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
@@ -57,7 +73,7 @@ a {
     color: #ffffff
 }
 
-.os {
+.main-button {
     background-color: #4D5AE5;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -68,12 +84,12 @@ a {
 
 }
 
-.os:hover,
-.os:focus {
+.main-button:hover,
+.main-button:focus {
     background-color: #404BBF;
 }
 
-.spdt {
+.text-dy-text {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -81,45 +97,19 @@ a {
     color: #2e2f42;
 }
 
-.directions {
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
-.sss {
-    background-color: #F4F4FD
-}
-
-.ot {
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: #2e2f42;
-}
-
-.mtcd {
-    background-color: #FFFFFF;
-}
-
-.gfgw {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    line-height: 1.2;
-    color: #2e2f42;
-}
-
-.position {
+.explain {
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
 
-.portfolio {
+.third-section {
+    background-color: #F4F4FD
+}
+
+.text {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -128,30 +118,27 @@ a {
     color: #2e2f42;
 }
 
-.app {
-    font-weight: 500;
-    font-size: 20p;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
+.img-third-section {
+    background-color: #FFFFFF;
 }
 
-.mrkt {
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
+.text-dy-text-center {
+    text-align: center;
 }
 
-.footer {
+
+.explain-center {
+    text-align: center;
+}
+
+.page-footer {
     background-color: #2e2f42;
 }
 
-.std-ft {
-    color: #f4f4fd
+.footer-logo .logo-part {
+    color: #f4f4fd;
 }
 
-.increase {
-    line-height: 1.5;
+.footer-explain {
     color: #F4F4FD;
-    letter-spacing: 0.02em;
 }
