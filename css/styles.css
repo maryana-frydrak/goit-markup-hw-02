@@ -81,6 +81,7 @@ a {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
+    cursor: pointer;
 
 }
 
@@ -123,11 +124,21 @@ a {
 }
 
 .text-dy-text-center {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
     text-align: center;
 }
 
 
 .explain-center {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
     text-align: center;
 }
 
@@ -141,4 +152,6 @@ a {
 
 .footer-explain {
     color: #F4F4FD;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
